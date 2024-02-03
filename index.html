@@ -1,255 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Rudra Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css27family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css27family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-        body {
-            background-color: rgb(0, 0, 27);
-            color: white;
-        }
+      body {
+        background-color: rgb(0, 0, 27);
+        color: white;
+      }
 
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 78px;
-            background-color: rgb(2, 2, 116);
-        }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 78px;
+        background-color: rgb(2, 2, 116);
+      }
 
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
 
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
 
-        nav ul li a:hover {
-            color: rgb(158, 158, 246);
-            font-size: 1.2rem;
-        }
+      nav ul li a:hover {
+        color: rgb(158, 158, 246);
+        font-size: 1.2rem;
+      }
 
-        main hr {
-            border: 0;
-            background-color: #9c97f9;
-            height: 1.0px;
-            margin: 51px 84px;
-        }
+      main hr {
+        border: 0;
+        background-color: #9c97f9;
+        height: 1px;
+        margin: 51px 84px;
+      }
 
-        .left {
-            font-size: 1.5rem;
-        }
+      .left {
+        font-size: 1.5rem;
+      }
 
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 100px 0;
-        }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 0;
+      }
 
-        .firstSection>div {
-            width: 30%;
-        }
+      .firstSection > div {
+        width: 30%;
+      }
 
-        .leftSection {
-            font-size: 3rem;
-        }
+      .leftSection {
+        font-size: 3rem;
+      }
 
-        .leftSection .btn {
-            padding: 12px;
-            background-color: rgb(25, 23, 25);
-            color: white;
-            border: 2px solid white;
-            border-radius: 7px;
-            font-size: 20px;
-            cursor: pointer;
-        }
+      .leftSection .btn {
+        padding: 12px;
+        background-color: rgb(25, 23, 25);
+        color: white;
+        border: 2px solid white;
+        border-radius: 7px;
+        font-size: 20px;
+        cursor: pointer;
+      }
 
-        .rightSection img {
-            width: 100%;
-            margin: 40px 0;
-        }
+      .rightSection img {
+        width: 100%;
+        margin: 40px 0;
+      }
 
-        .purple {
-            color: rgb(119, 37, 195);
-        }
+      .purple {
+        color: rgb(119, 37, 195);
+      }
 
-        .text-gray {
-            font-size: 1.2rem;
-            color: gray;
-        }
+      .text-gray {
+        font-size: 1.2rem;
+        color: gray;
+      }
 
-        #element {
-            color: rgb(119, 37, 195);
-        }
+      #element {
+        color: rgb(119, 37, 195);
+      }
 
-        .secondSection {
-            max-width: 80vw;
-            margin: auto;
-            height: 40vh;
-        }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 40vh;
+      }
 
-        .secondSection h1 {
-            font-size: 2rem;
-        }
+      .secondSection h1 {
+        font-size: 2rem;
+      }
 
-        .secondSection .box {
-            background: white;
-            width: 80vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-        }
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
 
-        .secondSection .vertical {
-            height: 93px;
-            width: 1px;
-            margin: 0 100px;
-            background-color: white;
-        }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        margin: 0 100px;
+        background-color: white;
+      }
 
-        .vertical-title {
-            position: relative;
-            top: 60px;
-            width: 150px;
-            padding-left: 1px;
-        }
+      .vertical-title {
+        position: relative;
+        top: 60px;
+        width: 150px;
+        padding-left: 1px;
+      }
 
-        .thirdSection {
-            padding-left: 10vw;
-        }
+      .thirdSection {
+        padding-left: 10vw;
+      }
 
-        .thirdSection h1 {
-            font-size: 3rem;
-            color: gray;
-        }
+      .thirdSection h1 {
+        font-size: 3rem;
+        color: gray;
+      }
 
-        .thirdSection>div {
-            font-size: 2.5rem;
-            color: gray;
-        }
+      .thirdSection > div {
+        font-size: 2.5rem;
+        color: gray;
+      }
 
-        .c {
-            background-color: rgb(3, 3, 52);
-            padding-top: 20px;
-            padding-bottom: 20px;
-            padding-left: 154px;
-            border-radius: 25px;
-            border-width: 1000px;
-            font-size: 2rem;
-        }
+      .c {
+        background-color: rgb(3, 3, 52);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 154px;
+        border-radius: 25px;
+        border-width: 1000px;
+        font-size: 2rem;
+      }
 
-        .s {
-            background-color: rgb(15, 13, 15);
-            border-color: gray;
-            color: white;
-            border-radius: 5px;
-        }
+      .s {
+        background-color: rgb(15, 13, 15);
+        border-color: gray;
+        color: white;
+        border-radius: 5px;
+      }
 
-        #name{
-            background-color: gray;
-            width: 30%;
-            height: 35px;
-        }
+      #name,
+      #email,
+      #message {
+        border: none;
 
+        background-color: rgb(249, 247, 247);
+        width: 90%;
+        height: 35px;
+        border-radius: 10px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="left">Rudra's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="left">Rudra's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="firstSection">
-            <div class="leftSection">
-                Hi, My name is <span class="purple">Rudra</span>
-                <div>Bytes and Pixels are my tools,</div>
-                <div>and I'm here to build your digital dreams</div>
-                <span id="element"></span>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Rudra</span>
+          <div>Bytes and Pixels are my tools,</div>
+          <div>and I'm here to build your digital dreams</div>
+          <span id="element"></span>
+        </div>
+
+        <div class="rightSection">
+          <img src="a.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical-title">Tution (2020 - 2022)</div>
+        </div>
+      </section>
+      <hr />
+
+      <section class="thirdSection">
+        <h1>Overview</h1>
+        <br />
+        <div class="d">
+          <div>Welcome to my digital domain!</div>
+          <div>I'm a passionate software developer</div>
+          <div>from India, specializing in</div>
+          <div>Python, DSA, C++, SQL, Java. Explore my</div>
+          <div>portfolio to witness the art of in action.</div>
+        </div>
+      </section>
+      <hr />
+
+      <section class="fourthSection">
+        <div class="c">
+          <form action="/submit_message" method="post">
+            <div style="display: flex; justify-content: center">Contact Me</div>
+            <br /><br />
+            <label for="name">Your Name:</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label for="email">Your Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="message">Your Message:</label><br />
+            <textarea id="message" name="message"></textarea><br />
+            <div style="display: flex; justify-content: center">
+              <button type="button" class="btn btn-success" style="width: 7%">
+                Submit
+              </button>
             </div>
-
-            <div class="rightSection">
-                <img src="a.png" alt="">
-            </div>
-
-        </section>
-
-        <hr>
-
-        <section class="secondSection">
-            <span class="text-gray">What I have done so far</span>
-            <h1>Work Experience</h1>
-            <div class="box">
-                <div class="vertical-title">
-                    Tution (2020 - 2022)
-                </div>
-            </div>
-        </section>
-        <hr>
-
-        <section class="thirdSection">
-            <h1>Overview</h1><br>
-            <div class="d">
-                <div>Welcome to my digital domain!</div>
-                <div>I'm a passionate software developer</div>
-                <div>from India, specializing in</div>
-                <div>Python, DSA, C++, SQL, Java. Explore my</div>
-                <div>portfolio to witness the art of in action.</div>
-            </div>
-        </section>
-        <hr>
-
-        <section class="fourthSection">
-            <div class="c">
-                <form action="/submit_message" method="post">Contact<br><br>
-                    <label for="name">Your Name:</label><br>
-                    <input type="text" id="name" name="name"><br>
-                    <label for="email">Your Email:</label><br>
-                    <input type="email" id="email" name="email"><br>
-                    <label for="message">Your Message:</label><br>
-                    <textarea id="message" name="message"></textarea><br>
-                    <button type="submit" class="s">Submit</button>
-                </form>
-            </div>
-        </section>
-
+          </form>
+        </div>
+      </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-            strings: ['Graphics Designer', 'Programmer'],
-            typeSpeed: 60,
-        });
+      var typed = new Typed("#element", {
+        strings: ["Graphics Designer", "Programmer"],
+        typeSpeed: 60,
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
